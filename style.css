@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl (0, 0%, 95%);
+}
+main {
+  display: flex;
+  /*   justify-content: center;
+    align-content: center; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  border: 2px;
+  height: 400px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+button {
+  padding: 15px 25px;
+  background-color: hsl (0, 0%, 95%);
+  border-radius: 35px;
+  border-color: white;
+  margin-top: 70px;
+}
+.sedan {
+  padding: 30px;
+  color: white;
+  background-color: hsl(31, 77%, 52%);
+  font-size: 16px;
+  width: 100%;
+}
+.sedan img {
+  padding-bottom: 20px;
+}
+.sedan h1 {
+  padding-bottom: 20px;
+  background-color: hsl (0, 0%, 95%);
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+}
+.sedan p {
+  /* padding-bottom: 55px; */
+  height: 100px;
+  font-size: 14px;
+  color: hsla(0, 0%, 100%, 95%);
+  font-family: Lexand Deca;
+  font-weight: normal;
+}
+.suv {
+  padding: 30px;
+  color: white;
+  background-color: hsl(184, 100%, 22%);
+  font-size: 16px;
+  width: 100%;
+}
+.suv img {
+  padding-bottom: 20px;
+}
+.suv h1 {
+  padding-bottom: 20px;
+  background-color: hsl (0, 0%, 95%);
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+}
+.suv p {
+  height: 100px;
+  font-family: Lexand Deca;
+  font-weight: normal;
+  color: hsla(0, 0%, 100%, 95%);
+}
+
+.luxury {
+  padding: 30px;
+  color: white;
+  background-color: hsl(179, 100%, 13%);
+  font-size: 16px;
+  width: 100%;
+}
+.luxury img {
+  padding-bottom: 20px;
+}
+.luxury h1 {
+  padding-bottom: 20px;
+  background-color: hsl (0, 0%, 95%);
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+}
+.luxury p {
+  height: 100px;
+  font-family: Lexand Deca;
+  font-weight: normal;
+  color: hsla(0, 0%, 100%, 95%);
+}
